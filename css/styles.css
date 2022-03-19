@@ -88,6 +88,8 @@ body {
 }
 .nav-list-item {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -99,8 +101,10 @@ body {
   display: flex;
 }
 .contacts-header-item {
-  display: flex;
+  display: block;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contacts-header-item:hover,
@@ -130,9 +134,11 @@ body {
 
 /* Section1
 ===================== */
-.hero .container {
+.hero {
   height: 600px;
-  max-width: 1600px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -146,16 +152,18 @@ body {
     url(../imges/overlay.jpg);
   background-color: var(--fond-color);
 }
+
 .hero-box {
   width: 696px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-text {
+  padding: 0;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: var(--main-color);
   font-size: 44px;
   text-align: center;
@@ -194,12 +202,13 @@ body {
 /* Section2
 ===================== */
 .page-advantages {
+  padding: 94px 0;
   margin-left: auto;
   margin-right: auto;
 }
 .advantage {
   display: flex;
-  padding: 94px 0;
+  padding-left: 0;
   margin: 0;
 }
 .advantage .item {
@@ -251,12 +260,12 @@ body {
 
 /* Section3
 ===================== */
-.page-scils .container {
+.page-scils {
   padding-bottom: 94px;
 }
 .title {
-  margin: 0;
-  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -274,14 +283,13 @@ body {
 /* Section4
 ===================== */
 .team {
-  background-color: var(--team-fond-color);
-}
-.team .container {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--team-fond-color);
 }
 .team .list {
   display: flex;
+  padding: 0;
 }
 .team .item {
   display: block;
@@ -321,15 +329,16 @@ body {
 ===================== */
 .footer {
   background-color: var(--fond-color);
+  padding: 60px 0 60px 0;
 }
 .address-box {
-  padding: 60px 0 60px 0;
   margin-bottom: 0;
 }
 .address-box .logo {
-  margin-top: 0;
-  margin-bottom: 0;
+  display: inline-block;
   margin-right: 0;
+  padding: 0px;
+  margin-bottom: 20px;
 }
 .logo-white {
   color: var(--main-color);
@@ -375,13 +384,14 @@ body {
 .main-section {
   display: block;
 }
-.container.portfolio {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .filter.list {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 .filter .item + .item {
   margin-left: 8px;
@@ -409,7 +419,6 @@ body {
 /* Фильтр портфолио */
 .works-box {
   margin: 0;
-  padding-top: 34px;
 }
 .works {
   display: flex;
@@ -443,14 +452,14 @@ body {
 .works-item {
   padding: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   color: var(---primary-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-h2 > .works-text {
+.works-text {
   padding: 0;
   color: var(--secondary-text-color);
   font-size: 16px;
