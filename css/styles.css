@@ -335,7 +335,7 @@ img {
   letter-spacing: 0.03em;
 }
 .team-position {
-  margin: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -360,8 +360,8 @@ img {
 }
 .link-social-icon:hover,
 .link-social-icon:focus {
-  color: var(--secondary-color);
-  background-color: var(--hover-color);
+  color: var(--main-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 .link-social-icon:not(:last-child) {
