@@ -359,6 +359,9 @@ img {
   color: var(--icon-color);
   cursor: pointer;
 }
+.icon-social {
+  fill: currentColor;
+}
 .link-social-icon:hover,
 .link-social-icon:focus {
   color: var(--main-color);
@@ -367,9 +370,6 @@ img {
 }
 .link-social-icon:not(:last-child) {
   margin-right: 10px;
-}
-.icon-social {
-  fill: currentColor;
 }
 
 /* Section5
