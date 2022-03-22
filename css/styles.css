@@ -342,6 +342,35 @@ img {
   letter-spacing: 0.03em;
 }
 
+/* Social  */
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  cursor: pointer;
+}
+.link-social-icon:hover,
+.link-social-icon:focus {
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+  border-radius: 50%;
+}
+.link-social-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.icon-social {
+  fill: currentColor;
+}
+
 /* Section5
  =====================*/
 .page-clients .container {
