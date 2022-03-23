@@ -28,7 +28,7 @@ ul {
 }
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h1,
 h2,
@@ -74,7 +74,7 @@ img {
   display: block;
   padding: 24px 0;
   margin-right: 93px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
   color: var(--accent-color);
@@ -158,12 +158,8 @@ img {
   background-size: cover;
   text-align: center;
   padding: 200px 0 200px 0;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../imges/overlay.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/overlay.jpg);
   background-color: var(--fond-color);
 }
 
@@ -234,7 +230,7 @@ img {
 }
 .advantage .item::before {
   display: block;
-  content: "";
+  content: '';
   height: 120px;
   background-color: var(--team-fond-color);
   background-position: center;
@@ -243,16 +239,16 @@ img {
   border-radius: 4px;
 }
 .antenna::before {
-  background-image: url(../imges/antenna.svg);
+  background-image: url(../images/antenna.svg);
 }
 .clock::before {
-  background-image: url(../imges/clock.svg);
+  background-image: url(../images/clock.svg);
 }
 .diagram::before {
-  background-image: url(../imges/diagram.svg);
+  background-image: url(../images/diagram.svg);
 }
 .astronaut::before {
-  background-image: url(../imges/astronaut.svg);
+  background-image: url(../images/astronaut.svg);
 }
 .advantage-subtitle {
   margin-top: 0;
