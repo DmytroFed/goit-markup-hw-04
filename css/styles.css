@@ -427,6 +427,7 @@ img {
 }
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 .address-box {
   margin-bottom: 0;
